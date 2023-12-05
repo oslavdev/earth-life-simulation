@@ -1,0 +1,14 @@
+[package]
+name = "toml"
+version = "0.1.0"
+authors = ["Oslav <ekrijel@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+rand = "0.8.5"
+tokio = "1.34.0"
+
+[[bin]]
+name = "earth-simulation"
+path = "src/main.rs"
